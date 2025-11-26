@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { Button } from './Button';
 import { ArrowDown, Wheat } from 'lucide-react';
+import { HERO_IMAGE_URL } from '../constants';
 
 export const Hero: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -33,7 +34,7 @@ export const Hero: React.FC = () => {
         <div className="absolute inset-0 bg-grain opacity-[0.03] z-20 pointer-events-none mix-blend-overlay" />
         
         <img 
-          src="https://i.imgur.com/Ep0uJIZ.jpeg" 
+          src={HERO_IMAGE_URL} 
           alt="Eman Bakeries Hero" 
           className="w-full h-full object-cover opacity-60 scale-105"
         />

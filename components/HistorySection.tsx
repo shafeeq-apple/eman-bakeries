@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Clock, Users, Award, Wheat } from 'lucide-react';
+import { Wheat } from 'lucide-react';
+import { BAKER_HANDS_URL } from '../constants';
 
 export const HistorySection: React.FC = () => {
   return (
@@ -47,7 +48,7 @@ export const HistorySection: React.FC = () => {
             <div className="relative h-[600px] w-full overflow-hidden rounded-sm border border-white/5">
                <div className="absolute inset-0 bg-brand-dark/20 z-10 group-hover:bg-transparent transition-all duration-700" />
                <img 
-                 src="https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=2072&auto=format&fit=crop" 
+                 src={BAKER_HANDS_URL} 
                  alt="Baker Hands Kneading Dough" 
                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000 scale-105 group-hover:scale-100"
                />
