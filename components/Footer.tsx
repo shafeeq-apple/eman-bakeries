@@ -67,7 +67,7 @@ export const Footer: React.FC = () => {
                               required 
                               name="name"
                               type="text" 
-                              className="w-full bg-brand-dark border border-white/10 p-4 text-sm text-white focus:border-brand-gold focus:ring-1 focus:ring-brand-gold/50 outline-none transition-[...]"
+                              className="w-full bg-brand-dark border border-white/10 p-4 text-sm text-white focus:border-brand-gold focus:ring-1 focus:ring-brand-gold/50 outline-none transition-all"
                               placeholder="Full Name" 
                             />
                         </div>
@@ -77,7 +77,7 @@ export const Footer: React.FC = () => {
                               required 
                               name="email"
                               type="email" 
-                              className="w-full bg-brand-dark border border-white/10 p-4 text-sm text-white focus:border-brand-gold focus:ring-1 focus:ring-brand-gold/50 outline-none transition-[...]"
+                              className="w-full bg-brand-dark border border-white/10 p-4 text-sm text-white focus:border-brand-gold focus:ring-1 focus:ring-brand-gold/50 outline-none transition-all"
                               placeholder="email@company.com" 
                             />
                         </div>
@@ -89,7 +89,7 @@ export const Footer: React.FC = () => {
                           required 
                           name="phone"
                           type="tel" 
-                          className="w-full bg-brand-dark border border-white/10 p-4 text-sm text-white focus:border-brand-gold focus:ring-1 focus:ring-brand-gold/50 outline-none transition-all [...]"
+                          className="w-full bg-brand-dark border border-white/10 p-4 text-sm text-white focus:border-brand-gold focus:ring-1 focus:ring-brand-gold/50 outline-none transition-all"
                           placeholder="+966 5X XXX XXXX" 
                         />
                     </div>
@@ -100,7 +100,7 @@ export const Footer: React.FC = () => {
                           required 
                           name="message"
                           rows={4} 
-                          className="w-full bg-brand-dark border border-white/10 p-4 text-sm text-white focus:border-brand-gold focus:ring-1 focus:ring-brand-gold/50 outline-none transition-all[...]"
+                          className="w-full bg-brand-dark border border-white/10 p-4 text-sm text-white focus:border-brand-gold focus:ring-1 focus:ring-brand-gold/50 outline-none transition-all"
                           placeholder="Tell us about your requirements..." 
                         />
                     </div>
@@ -139,9 +139,9 @@ export const Footer: React.FC = () => {
                       <div className="flex items-start space-x-4 mb-4">
                         <MapPin className="w-5 h-5 text-brand-gold flex-shrink-0 mt-1" />
                         <p className="leading-relaxed text-sm">
-                          Hira Street, An Nahdah Dist,<br />
-                          23523 Jeddah<br />
-                          Saudi Arabia
+                          2790 Hira, An Nahdah Dist.,<br />
+                          Jeddah 23523,<br />
+                          Kingdom of Saudi Arabia
                         </p>
                       </div>
                    </div>
@@ -158,8 +158,9 @@ export const Footer: React.FC = () => {
                          <span className="text-sm">info@emanbakeries.com</span>
                        </div>
 
-                       <div className="mt-2">
-                         <a href="/verification/" className="text-sm text-brand-gold hover:underline">Verification Documents</a>
+                       <div className="mt-3 text-sm space-y-1">
+                         <div>CR: <span className="font-medium">4030331653</span></div>
+                         <div>VAT: <span className="font-medium">312028501300003</span></div>
                        </div>
                      </div>
                    </div>
@@ -167,13 +168,13 @@ export const Footer: React.FC = () => {
                    <div>
                      <h4 className="text-white font-serif text-xl mb-6">Connect</h4>
                      <div className="flex space-x-4">
-                       <a href="#" className="w-10 h-10 border border-white/10 flex items-center justify-center hover:bg-brand-gold hover:text-brand-dark hover:border-brand-gold transition-all du[...]">
+                       <a href="#" className="w-10 h-10 border border-white/10 flex items-center justify-center hover:bg-brand-gold hover:text-brand-dark hover:border-brand-gold transition-all">
                          <Linkedin className="w-4 h-4" />
                        </a>
-                       <a href="#" className="w-10 h-10 border border-white/10 flex items-center justify-center hover:bg-brand-gold hover:text-brand-dark hover:border-brand-gold transition-all du[...]">
+                       <a href="#" className="w-10 h-10 border border-white/10 flex items-center justify-center hover:bg-brand-gold hover:text-brand-dark hover:border-brand-gold transition-all">
                          <Instagram className="w-4 h-4" />
                        </a>
-                       <a href="#" className="w-10 h-10 border border-white/10 flex items-center justify-center hover:bg-brand-gold hover:text-brand-dark hover:border-brand-gold transition-all du[...]">
+                       <a href="#" className="w-10 h-10 border border-white/10 flex items-center justify-center hover:bg-brand-gold hover:text-brand-dark hover:border-brand-gold transition-all">
                          <Facebook className="w-4 h-4" />
                        </a>
                      </div>
@@ -199,7 +200,6 @@ export const Footer: React.FC = () => {
         <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-600 uppercase tracking-wider">
           <p>&copy; {new Date().getFullYear()} Eman Bakeries. All Rights Reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="/verification/" className="hover:text-brand-gold transition-colors">Verification</a>
             <a href="#" className="hover:text-brand-gold transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-brand-gold transition-colors">Terms of Service</a>
           </div>
