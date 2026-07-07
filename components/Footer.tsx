@@ -27,7 +27,7 @@ export const Footer: React.FC = () => {
             {/* Contact Form Section - Spans 7 cols */}
             <div className="lg:col-span-7">
                 <div className="mb-8">
-                    <h3 className="text-3xl md:text-4xl font-serif text-white mb-3">Partner With Us / تعاون معنا</h3>
+                    <h3 className="text-3xl md:text-4xl font-serif text-white mb-3">Partner With Us</h3>
                     <p className="text-gray-500 font-light">
                         Connect with our industrial sales team for custom orders and distribution.
                     </p>
@@ -135,7 +135,7 @@ export const Footer: React.FC = () => {
                    </div>
 
                    <div>
-                      <h4 className="text-white font-serif text-xl mb-6">Headquarters / المقر الرئيسي</h4>
+                      <h4 className="text-white font-serif text-xl mb-6">Headquarters</h4>
                       <div className="flex items-start space-x-4 mb-4">
                         <MapPin className="w-5 h-5 text-brand-gold flex-shrink-0 mt-1" />
                         <p className="leading-relaxed text-sm">
@@ -147,26 +147,26 @@ export const Footer: React.FC = () => {
                    </div>
 
                    <div>
-                     <h4 className="text-white font-serif text-xl mb-6">Contact / اتصل بنا</h4>
+                     <h4 className="text-white font-serif text-xl mb-6">Contact</h4>
                      <div className="space-y-4">
                        <div className="flex items-center space-x-4">
                          <Phone className="w-5 h-5 text-brand-gold flex-shrink-0" />
-                         <span className="text-sm">Mob / جوال: +966 506079191</span>
+                         <span className="text-sm">Phone: +966 506079191</span>
                        </div>
                        <div className="flex items-center space-x-4">
                          <Mail className="w-5 h-5 text-brand-gold flex-shrink-0" />
-                         <span className="text-sm">البريد الإلكتروني / Email: info@emanbakeries.com</span>
+                         <span className="text-sm">Email: info@emanbakeries.com</span>
                        </div>
 
                        <div className="mt-3 text-sm space-y-1">
-                         <div>CR / السجل التجاري: <span className="font-medium">4030331653</span></div>
-                         <div>VAT / ضريبة القيمة المضافة: <span className="font-medium">312028501300003</span></div>
+                         <div>CR: <span className="font-medium">4030331653</span></div>
+                         <div>VAT: <span className="font-medium">312028501300003</span></div>
                        </div>
                      </div>
                    </div>
                    
                    <div>
-                     <h4 className="text-white font-serif text-xl mb-6">Connect / تواصل</h4>
+                     <h4 className="text-white font-serif text-xl mb-6">Connect</h4>
                      <div className="flex space-x-4">
                        <a href="#" className="w-10 h-10 border border-white/10 flex items-center justify-center hover:bg-brand-gold hover:text-brand-dark hover:border-brand-gold transition-all">
                          <Linkedin className="w-4 h-4" />
