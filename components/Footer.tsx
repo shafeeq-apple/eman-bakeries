@@ -51,70 +51,70 @@ export const Footer: React.FC = () => {
                     method="POST"
                     className="space-y-6 bg-white/[0.02] p-8 rounded-sm border border-white/5 backdrop-blur-sm shadow-2xl relative"
                   >
-                      {/* FormSubmit Configuration */}
-                      <input type="hidden" name="_subject" value="New Partner Inquiry - Eman Bakeries Website" />
-                      <input type="hidden" name="_template" value="table" />
-                      <input type="hidden" name="_captcha" value="false" />
-                      <input type="hidden" name="_next" value="https://emanbakeries.com/?submitted=true" />
-                      
-                      {/* Hidden Honeypot to prevent spam */}
-                      <input type="text" name="_honey" style={{display: 'none'}} />
+                    {/* FormSubmit Configuration */}
+                    <input type="hidden" name="_subject" value="New Partner Inquiry - Eman Bakeries Website" />
+                    <input type="hidden" name="_template" value="table" />
+                    <input type="hidden" name="_captcha" value="false" />
+                    <input type="hidden" name="_next" value="https://emanbakeries.com/?submitted=true" />
+                    
+                    {/* Hidden Honeypot to prevent spam */}
+                    <input type="text" name="_honey" style={{display: 'none'}} />
 
-                      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                          <div className="space-y-2">
-                              <label className="text-[10px] uppercase tracking-[0.2em] text-brand-gold font-bold">Name</label>
-                              <input 
-                                required 
-                                name="name"
-                                type="text" 
-                                className="w-full bg-brand-dark border border-white/10 p-4 text-sm text-white focus:border-brand-gold focus:ring-1 focus:ring-brand-gold/50 outline-none transition-all placeholder:text-gray-700" 
-                                placeholder="Full Name" 
-                              />
-                          </div>
-                          <div className="space-y-2">
-                              <label className="text-[10px] uppercase tracking-[0.2em] text-brand-gold font-bold">Email</label>
-                              <input 
-                                required 
-                                name="email"
-                                type="email" 
-                                className="w-full bg-brand-dark border border-white/10 p-4 text-sm text-white focus:border-brand-gold focus:ring-1 focus:ring-brand-gold/50 outline-none transition-all placeholder:text-gray-700" 
-                                placeholder="email@company.com" 
-                              />
-                          </div>
-                      </div>
-                      
-                      <div className="space-y-2">
-                          <label className="text-[10px] uppercase tracking-[0.2em] text-brand-gold font-bold">Mobile Number</label>
-                          <input 
-                            required 
-                            name="phone"
-                            type="tel" 
-                            className="w-full bg-brand-dark border border-white/10 p-4 text-sm text-white focus:border-brand-gold focus:ring-1 focus:ring-brand-gold/50 outline-none transition-all placeholder:text-gray-700" 
-                            placeholder="+966 5X XXX XXXX" 
-                          />
-                      </div>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div className="space-y-2">
+                            <label className="text-[10px] uppercase tracking-[0.2em] text-brand-gold font-bold">Name</label>
+                            <input 
+                              required 
+                              name="name"
+                              type="text" 
+                              className="w-full bg-brand-dark border border-white/10 p-4 text-sm text-white focus:border-brand-gold focus:ring-1 focus:ring-brand-gold/50 outline-none transition-[...]"
+                              placeholder="Full Name" 
+                            />
+                        </div>
+                        <div className="space-y-2">
+                            <label className="text-[10px] uppercase tracking-[0.2em] text-brand-gold font-bold">Email</label>
+                            <input 
+                              required 
+                              name="email"
+                              type="email" 
+                              className="w-full bg-brand-dark border border-white/10 p-4 text-sm text-white focus:border-brand-gold focus:ring-1 focus:ring-brand-gold/50 outline-none transition-[...]"
+                              placeholder="email@company.com" 
+                            />
+                        </div>
+                    </div>
+                    
+                    <div className="space-y-2">
+                        <label className="text-[10px] uppercase tracking-[0.2em] text-brand-gold font-bold">Mobile Number</label>
+                        <input 
+                          required 
+                          name="phone"
+                          type="tel" 
+                          className="w-full bg-brand-dark border border-white/10 p-4 text-sm text-white focus:border-brand-gold focus:ring-1 focus:ring-brand-gold/50 outline-none transition-all [...]"
+                          placeholder="+966 5X XXX XXXX" 
+                        />
+                    </div>
 
-                      <div className="space-y-2">
-                          <label className="text-[10px] uppercase tracking-[0.2em] text-brand-gold font-bold">Message</label>
-                          <textarea 
-                            required 
-                            name="message"
-                            rows={4} 
-                            className="w-full bg-brand-dark border border-white/10 p-4 text-sm text-white focus:border-brand-gold focus:ring-1 focus:ring-brand-gold/50 outline-none transition-all placeholder:text-gray-700 resize-none" 
-                            placeholder="Tell us about your requirements..." 
-                          />
-                      </div>
+                    <div className="space-y-2">
+                        <label className="text-[10px] uppercase tracking-[0.2em] text-brand-gold font-bold">Message</label>
+                        <textarea 
+                          required 
+                          name="message"
+                          rows={4} 
+                          className="w-full bg-brand-dark border border-white/10 p-4 text-sm text-white focus:border-brand-gold focus:ring-1 focus:ring-brand-gold/50 outline-none transition-all[...]"
+                          placeholder="Tell us about your requirements..." 
+                        />
+                    </div>
 
-                      
-                      <button 
-                        type="submit" 
-                        className="group relative w-full bg-brand-gold text-brand-dark font-bold uppercase tracking-widest text-xs py-4 overflow-hidden"
-                      >
-                          <span className="relative z-10 flex items-center justify-center">
-                            Send Inquiry <Send className="w-3 h-3 ml-2 group-hover:translate-x-1 transition-transform" />
-                          </span>
-                          <div className="absolute inset-0 bg-white/20 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300 origin-left" />
-                      </button>
+                    
+                    <button 
+                      type="submit" 
+                      className="group relative w-full bg-brand-gold text-brand-dark font-bold uppercase tracking-widest text-xs py-4 overflow-hidden"
+                    >
+                        <span className="relative z-10 flex items-center justify-center">
+                          Send Inquiry <Send className="w-3 h-3 ml-2 group-hover:translate-x-1 transition-transform" />
+                        </span>
+                        <div className="absolute inset-0 bg-white/20 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300 origin-left" />
+                    </button>
                   </form>
                 )}
             </div>
@@ -151,11 +151,15 @@ export const Footer: React.FC = () => {
                      <div className="space-y-4">
                        <div className="flex items-center space-x-4">
                          <Phone className="w-5 h-5 text-brand-gold flex-shrink-0" />
-                         <span className="text-sm">+966 552821842</span>
+                         <span className="text-sm">+966 506079191</span>
                        </div>
                        <div className="flex items-center space-x-4">
                          <Mail className="w-5 h-5 text-brand-gold flex-shrink-0" />
                          <span className="text-sm">info@emanbakeries.com</span>
+                       </div>
+
+                       <div className="mt-2">
+                         <a href="/verification/" className="text-sm text-brand-gold hover:underline">Verification Documents</a>
                        </div>
                      </div>
                    </div>
@@ -163,13 +167,13 @@ export const Footer: React.FC = () => {
                    <div>
                      <h4 className="text-white font-serif text-xl mb-6">Connect</h4>
                      <div className="flex space-x-4">
-                       <a href="#" className="w-10 h-10 border border-white/10 flex items-center justify-center hover:bg-brand-gold hover:text-brand-dark hover:border-brand-gold transition-all duration-300">
+                       <a href="#" className="w-10 h-10 border border-white/10 flex items-center justify-center hover:bg-brand-gold hover:text-brand-dark hover:border-brand-gold transition-all du[...]">
                          <Linkedin className="w-4 h-4" />
                        </a>
-                       <a href="#" className="w-10 h-10 border border-white/10 flex items-center justify-center hover:bg-brand-gold hover:text-brand-dark hover:border-brand-gold transition-all duration-300">
+                       <a href="#" className="w-10 h-10 border border-white/10 flex items-center justify-center hover:bg-brand-gold hover:text-brand-dark hover:border-brand-gold transition-all du[...]">
                          <Instagram className="w-4 h-4" />
                        </a>
-                       <a href="#" className="w-10 h-10 border border-white/10 flex items-center justify-center hover:bg-brand-gold hover:text-brand-dark hover:border-brand-gold transition-all duration-300">
+                       <a href="#" className="w-10 h-10 border border-white/10 flex items-center justify-center hover:bg-brand-gold hover:text-brand-dark hover:border-brand-gold transition-all du[...]">
                          <Facebook className="w-4 h-4" />
                        </a>
                      </div>
@@ -195,6 +199,7 @@ export const Footer: React.FC = () => {
         <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-600 uppercase tracking-wider">
           <p>&copy; {new Date().getFullYear()} Eman Bakeries. All Rights Reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
+            <a href="/verification/" className="hover:text-brand-gold transition-colors">Verification</a>
             <a href="#" className="hover:text-brand-gold transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-brand-gold transition-colors">Terms of Service</a>
           </div>
