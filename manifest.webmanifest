@@ -1,0 +1,18 @@
+{
+  "name": "Eman Bakeries",
+  "short_name": "Eman Bakeries",
+  "description": "Eman Bakeries is temporarily undergoing maintenance. We’ll be back soon.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f7f5ef",
+  "theme_color": "#f7f5ef",
+  "icons": [
+    {
+      "src": "/maintenance-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
